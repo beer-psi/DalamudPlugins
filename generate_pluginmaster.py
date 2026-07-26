@@ -109,8 +109,11 @@ def get_last_updated_times(manifests):
                 if manifest['InternalName'] != previous_manifest['InternalName']:
                     continue
 
-                if manifest['AssemblyVersion'] == previous_manifest['AssemblyVersion']:
-                    manifest['LastUpdate'] = previous_manifest['LastUpdate']
+                if (
+                    manifest['AssemblyVersion'] == previous_manifest['AssemblyVersion']
+                    and (last_update := previous_manifest.get("LastUpdate")) is not None
+                ):
+                    manifest['LastUpdate'] = last_update
 
                 break
 
