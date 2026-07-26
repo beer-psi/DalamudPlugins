@@ -60,7 +60,7 @@ jobs:
       - name: "Upload build artifact"
         uses: "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a" # v7
         with:
-          path: "${{ inputs.build_arfifacts_path }}/*"
+          path: "${{ inputs.build_artifacts_path }}/*"
 
   deploy:
     needs: "build"
