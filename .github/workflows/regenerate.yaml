@@ -3,6 +3,9 @@ name: "Regenerate PluginMaster"
 on:
   workflow_dispatch:
   push:
+    paths:
+      - "generate_pluginmaster.py"
+      - "plugins/**"
   schedule:
     - cron: '0 */12 * * *'
 
