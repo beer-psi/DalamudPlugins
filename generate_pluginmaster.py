@@ -51,7 +51,10 @@ def main():
     add_extra_fields(master)
 
     # update LastUpdate fields
-    get_last_updated_times(master)
+    try:
+        get_last_updated_times(master)
+    except FileNotFoundError:
+        pass
 
     # write the master
     write_master(master)
