@@ -23,6 +23,26 @@
         "IsTestingExclusive": false,
         "DownloadLinkTesting": "https://github.com/beer-psi/FFLogsUploaderPlugin/releases/download/v0.0.0.7/latest.zip",
         "DownloadLinkUpdate": "https://github.com/beer-psi/FFLogsUploaderPlugin/releases/download/v0.0.0.7/latest.zip",
-        "DownloadCount": 0
+        "DownloadCount": 1,
+        "LastUpdate": "1785052390"
+    },
+    {
+        "Author": "Anna",
+        "Name": "ExtraChat",
+        "Punchline": "Cross-data-centre linkshells with unlimited members.",
+        "Description": "ExtraChat adds end-to-end encrypted, cross-data-centre, unlimited linkshells\nto the game. (Fork of official plugin with features and some fixes)",
+        "Changelog": "# Features\n- Allow setting a notification sound on messages received.\n- Allow specifying a LS or CWLS as the output channel.\n  * Linkshell colour, chat marker and notification sound follow in-game settings, not ExtraChat settings.\n\n# Fixes\n- Fix requesting secrets.\n- Restore ECLS chat mode if the user was on ECLS chat mode before logging out or disabling plugin.\n- Gracefully handle server-side disconnect errors.\n- Fixes /reply going to ExtraChat linkshells instead of the intended recipients.",
+        "InternalName": "ExtraChat",
+        "AssemblyVersion": "1.4.0.0",
+        "RepoUrl": "https://github.com/beer-psi/ExtraChat",
+        "ApplicableVersion": "any",
+        "DalamudApiLevel": 15,
+        "DownloadLinkInstall": "https://github.com/beer-psi/ExtraChat/releases/download/v1.4.0.0/latest.zip",
+        "IsHide": false,
+        "IsTestingExclusive": false,
+        "DownloadLinkTesting": "https://github.com/beer-psi/ExtraChat/releases/download/v1.4.0.0/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/beer-psi/ExtraChat/releases/download/v1.4.0.0/latest.zip",
+        "DownloadCount": 0,
+        "LastUpdate": "1785052390"
     }
 ]
