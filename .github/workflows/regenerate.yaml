@@ -4,12 +4,16 @@ on:
   workflow_dispatch:
   push:
     paths:
+      - ".github/workflows/regenerate.yaml"
       - "generate_pluginmaster.py"
       - "plugins/**"
   schedule:
     - cron: '0 */12 * * *'
 
 concurrency: "regenerate"
+
+permissions:
+  contents: "write"
 
 jobs:
   generate:
