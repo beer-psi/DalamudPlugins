@@ -1,0 +1,96 @@
+name: "Create Release and Update Repository"
+
+on:
+  workflow_call:
+    inputs:
+      internal_name:
+        type: "string"
+        required: true
+      solution_name:
+        type: "string"
+        required: true
+      solution_path:
+        type: "string"
+        default: "${{ inputs.solution_name }}.sln"
+      build_configuration:
+        type: "string"
+        required: true
+      build_artifacts_path:
+        type: "string"
+        default: "./bin/${{ inputs.build_configuration }}/${{ inputs.solution_name }}"
+      personal_plugin_repo:
+        type: "string"
+        required: true
+      personal_plugin_repo_branch:
+        type: "string"
+        required: true
+    secrets:
+      PAT:
+        required: true
+
+permissions:
+  contents: "write"
+
+jobs:
+  build:
+    runs-on: "ubuntu-latest"
+    steps:
+      - name: "Checkout Repository"
+        uses: "actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1" # v7
+        with:
+          submodules: true
+
+      - name: "Setup .NET"
+        uses: "actions/setup-dotnet@a98b56852c35b8e3190ac28c8c2271da59106c68" # v6
+
+      - name: "Setup Dalamud"
+        run: |
+            mkdir -p "$HOME/.xlcore/dalamud/Hooks/dev"
+
+            curl --location --output dalamud-latest.zip https://goatcorp.github.io/dalamud-distrib/stg/latest.zip
+            unzip -d "$HOME/.xlcore/dalamud/Hooks/dev" dalamud-latest.zip
+            rm dalamud-latest.zip
+
+      - name: "Restore solution"
+        run: "dotnet restore ${{ inputs.solution_path }}"
+
+      - name: "Build solution"
+        run: "dotnet build --configuration ${{ inputs.build_configuration }} ${{ inputs.solution_path }}"
+
+      - name: "Upload build artifact"
+        uses: "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a" # v7
+        with:
+          path: "${{ inputs.build_arfifacts_path }}/*"
+
+  deploy:
+    needs: "build"
+    runs-on: "ubuntu-latest"
+
+    steps:
+      - name: "Checkout Plugin Repository"
+        uses: "actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1" # v7
+        with:
+          repository: "${{ inputs.personal_plugin_repo }}"
+          token: "${{ secrets.PAT }}"
+          ref: "${{ inputs.personal_plugin_repo_branch }}"
+
+      - name: "Download Plugin Build Artifact"
+        uses: "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c" # v8
+        with:
+          name: "artifact"
+          path: "plugins/${{ inputs.internal_name }}"
+
+      - name: "Commit"
+        uses: "EndBug/add-and-commit@290ea2c423ad77ca9c62ae0f5b224379612c0321" # v10
+        with:
+          add: "./plugins/${{ inputs.internal_name }}/${{ inputs.internal_name }}.json"
+          author_name: "GitHub Action"
+          author_email: "github-actions[bot]@users.noreply.github.com"
+          message: "${{ inputs.internal_name }} ${{ github.ref_name }}"
+
+      - name: "Create Release"
+        uses: "softprops/action-gh-release@3d0d9888cb7fd7b750713d6e236d1fcb99157228" # v3
+        with:
+          files: "./plugins/${{ inputs.internal_name }}/latest.zip"
+          draft: false
+          prerelease: false
