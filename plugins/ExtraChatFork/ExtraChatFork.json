@@ -1,0 +1,17 @@
+{
+  "Author": "Anna",
+  "Name": "ExtraChatFork",
+  "InternalName": "ExtraChatFork",
+  "AssemblyVersion": "1.4.1.0",
+  "Description": "ExtraChat adds end-to-end encrypted, cross-data-centre, unlimited linkshells\nto the game. (Fork of official plugin with features and some fixes)",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/beer-psi/ExtraChat",
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Cross-data-centre linkshells with unlimited members.",
+  "Changelog": "# Features\n- Allow setting a notification sound on messages received.\n- Allow specifying a LS or CWLS as the output channel.\n  * Linkshell colour, chat marker and notification sound follow in-game settings, not ExtraChat settings.\n\n# Fixes\n- Fix requesting secrets.\n- Restore ECLS chat mode if the user was on ECLS chat mode before logging out or disabling plugin.\n- Gracefully handle server-side disconnect errors.\n- Fixes /reply going to ExtraChat linkshells instead of the intended recipients.",
+  "AcceptsFeedback": false
+}
