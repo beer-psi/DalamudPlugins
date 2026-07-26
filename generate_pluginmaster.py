@@ -74,18 +74,23 @@ def extract_manifests():
 
 def add_extra_fields(manifests):
     for manifest in manifests:
+        owner, repo = manifest["RepoUrl"].split("/")[-2:]
+
         # generate the download link
         manifest['DownloadLinkInstall'] = DOWNLOAD_URL.format(manifest['RepoUrl'], manifest['AssemblyVersion'])
+
         # add default values if missing
         for k, v in DEFAULTS.items():
             if k not in manifest:
                 manifest[k] = v
+
         # duplicate keys as specified in DUPLICATES
         for source, keys in DUPLICATES.items():
             for k in keys:
                 if k not in manifest:
                     manifest[k] = manifest[source]
-        manifest['DownloadCount'] = get_release_download_count('beer-psi', manifest["InternalName"], manifest['AssemblyVersion'])
+
+        manifest['DownloadCount'] = get_release_download_count(owner, repo, manifest['AssemblyVersion'])
 
 def get_release_download_count(username, repo, id):
     r = requests.get(GITHUB_RELEASES_API_URL.format(username, repo, id))
