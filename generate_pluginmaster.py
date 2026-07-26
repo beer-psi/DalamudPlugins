@@ -108,7 +108,7 @@ def get_last_updated_times(manifests):
         previous_manifests = json.load(f)
 
         for manifest in manifests:
-            manifest['LastUpdate'] = str(int(time()))
+            manifest['LastUpdate'] = str(int(time() * 1000))
 
             for previous_manifest in previous_manifests:
                 if manifest['InternalName'] != previous_manifest['InternalName']:

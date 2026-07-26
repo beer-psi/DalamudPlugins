@@ -24,7 +24,7 @@
         "DownloadLinkTesting": "https://github.com/beer-psi/FFLogsUploaderPlugin/releases/download/v0.0.0.7/latest.zip",
         "DownloadLinkUpdate": "https://github.com/beer-psi/FFLogsUploaderPlugin/releases/download/v0.0.0.7/latest.zip",
         "DownloadCount": 1,
-        "LastUpdate": "1785052390"
+        "LastUpdate": "1785052390000"
     },
     {
         "Author": "Anna",
@@ -43,6 +43,6 @@
         "DownloadLinkTesting": "https://github.com/beer-psi/ExtraChat/releases/download/v1.4.1.0/latest.zip",
         "DownloadLinkUpdate": "https://github.com/beer-psi/ExtraChat/releases/download/v1.4.1.0/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1785053434"
+        "LastUpdate": "1785053434000"
     }
 ]
