@@ -1,8 +1,8 @@
 {
-  "Author": "Anna",
+  "Author": "Anna, beerpsi",
   "Name": "ExtraChatFork",
   "InternalName": "ExtraChatFork",
-  "AssemblyVersion": "1.4.2.0",
+  "AssemblyVersion": "1.4.3.0",
   "Description": "ExtraChat adds end-to-end encrypted, cross-data-centre, unlimited linkshells\nto the game. (Fork of official plugin with features and some fixes)",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/beer-psi/ExtraChat",
@@ -12,6 +12,6 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Cross-data-centre linkshells with unlimited members.",
-  "Changelog": "# Fixes\n- Enable placeholders like <se.#> to work.\n  * You can choose whether to play them on a linkshell-by-linkshell basis in settings.",
+  "Changelog": "# Features\n- /ecl is an extra alias for /ecl1.\n\n# Fixes\n- Fix the first line in a macro being sent to another chat instead of the ECLS.\n- Fix received messages being garbled or out of order if they come in too fast.",
   "AcceptsFeedback": false
 }
