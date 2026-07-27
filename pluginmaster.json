@@ -31,18 +31,18 @@
         "Name": "ExtraChatFork",
         "Punchline": "Cross-data-centre linkshells with unlimited members.",
         "Description": "ExtraChat adds end-to-end encrypted, cross-data-centre, unlimited linkshells\nto the game. (Fork of official plugin with features and some fixes)",
-        "Changelog": "# Features\n- /ecl is an extra alias for /ecl1.\n\n# Fixes\n- Fix the first line in a macro being sent to another chat instead of the ECLS.\n- Fix received messages being garbled or out of order if they come in too fast.",
+        "Changelog": "# Features\n- Make chat entry text color match configured linkshell color.",
         "InternalName": "ExtraChatFork",
-        "AssemblyVersion": "1.4.3.0",
+        "AssemblyVersion": "1.4.4.0",
         "RepoUrl": "https://github.com/beer-psi/ExtraChat",
         "ApplicableVersion": "any",
         "DalamudApiLevel": 15,
-        "DownloadLinkInstall": "https://github.com/beer-psi/ExtraChat/releases/download/v1.4.3.0/latest.zip",
+        "DownloadLinkInstall": "https://github.com/beer-psi/ExtraChat/releases/download/v1.4.4.0/latest.zip",
         "IsHide": false,
         "IsTestingExclusive": false,
-        "DownloadLinkTesting": "https://github.com/beer-psi/ExtraChat/releases/download/v1.4.3.0/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/beer-psi/ExtraChat/releases/download/v1.4.3.0/latest.zip",
+        "DownloadLinkTesting": "https://github.com/beer-psi/ExtraChat/releases/download/v1.4.4.0/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/beer-psi/ExtraChat/releases/download/v1.4.4.0/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1785095590947"
+        "LastUpdate": "1785161379182"
     }
 ]
