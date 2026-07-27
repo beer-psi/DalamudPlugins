@@ -2,7 +2,7 @@
   "Author": "Anna, beerpsi",
   "Name": "ExtraChatFork",
   "InternalName": "ExtraChatFork",
-  "AssemblyVersion": "1.4.4.0",
+  "AssemblyVersion": "1.4.5.0",
   "Description": "ExtraChat adds end-to-end encrypted, cross-data-centre, unlimited linkshells\nto the game. (Fork of official plugin with features and some fixes)",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/beer-psi/ExtraChat",
@@ -12,6 +12,6 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Cross-data-centre linkshells with unlimited members.",
-  "Changelog": "# Features\n- Make chat entry text color match configured linkshell color.",
+  "Changelog": "# Features\n- Make chat entry text color match configured linkshell color.\n\n# Fixes\n- Fix chat entry text color for ExtraChat linkshells that don't output to in-game LS or CWLS.",
   "AcceptsFeedback": false
 }
