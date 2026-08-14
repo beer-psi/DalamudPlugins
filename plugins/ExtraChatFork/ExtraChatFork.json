@@ -2,7 +2,7 @@
   "Author": "Anna, beerpsi",
   "Name": "ExtraChatFork",
   "InternalName": "ExtraChatFork",
-  "AssemblyVersion": "1.4.6.0",
+  "AssemblyVersion": "1.4.7.0",
   "Description": "ExtraChat adds end-to-end encrypted, cross-data-centre, unlimited linkshells\nto the game. (Fork of official plugin with features and some fixes)",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/beer-psi/ExtraChat",
@@ -12,6 +12,6 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Cross-data-centre linkshells with unlimited members.",
-  "Changelog": "# Fixes\n- When switching to an ECLS, also deselect the channel you're switching from in the\nchat mode dropdown.",
+  "Changelog": "# Fixes\n- Fixes auto-translate phrases for commands (e.g. \\uE040/think\\uE041) being treated as actual commands",
   "AcceptsFeedback": false
 }
