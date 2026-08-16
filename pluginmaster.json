@@ -31,18 +31,18 @@
         "Name": "ExtraChatFork",
         "Punchline": "Cross-data-centre linkshells with unlimited members.",
         "Description": "ExtraChat adds end-to-end encrypted, cross-data-centre, unlimited linkshells\nto the game. (Fork of official plugin with features and some fixes)",
-        "Changelog": "# Fixes\n- Fixes auto-translate phrases for commands (e.g. \\uE040/think\\uE041) being treated as actual commands",
+        "Changelog": "# Features\n- /ecl now chooses the ExtraChat linkshell you last sent a message to, rather than the first\nlinkshell.\n\n# Fixes\n- Un-fix sending auto-translate commands as a message when placed at the beginning. This lines up with\nvanilla game behavior. To send an auto-translate command as a message, send \"/eclX <auto-translate>\".\n- Fix chat entry color in Chat 2 when using in-game linkshell/CWLS as the output channel.",
         "InternalName": "ExtraChatFork",
-        "AssemblyVersion": "1.4.7.0",
+        "AssemblyVersion": "1.4.8.0",
         "RepoUrl": "https://github.com/beer-psi/ExtraChat",
         "ApplicableVersion": "any",
         "DalamudApiLevel": 15,
-        "DownloadLinkInstall": "https://github.com/beer-psi/ExtraChat/releases/download/v1.4.7.0/latest.zip",
+        "DownloadLinkInstall": "https://github.com/beer-psi/ExtraChat/releases/download/v1.4.8.0/latest.zip",
         "IsHide": false,
         "IsTestingExclusive": false,
-        "DownloadLinkTesting": "https://github.com/beer-psi/ExtraChat/releases/download/v1.4.7.0/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/beer-psi/ExtraChat/releases/download/v1.4.7.0/latest.zip",
-        "DownloadCount": 4,
-        "LastUpdate": "1786712795596"
+        "DownloadLinkTesting": "https://github.com/beer-psi/ExtraChat/releases/download/v1.4.8.0/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/beer-psi/ExtraChat/releases/download/v1.4.8.0/latest.zip",
+        "DownloadCount": 0,
+        "LastUpdate": "1786906027729"
     }
 ]
