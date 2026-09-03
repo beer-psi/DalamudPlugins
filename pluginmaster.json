@@ -1,32 +1,5 @@
 [
     {
-        "Author": "beerpsi",
-        "Name": "FF Logs Uploader",
-        "Punchline": "An unofficial in-game log uploader client for FF Logs",
-        "Description": "An alternative to the Archon App for uploading logs to the FF Logs service. Basic features are covered: uploading a log, splitting a log file, live logging.",
-        "InternalName": "FFLogsUploaderPlugin",
-        "AssemblyVersion": "0.0.0.7",
-        "RepoUrl": "https://github.com/beer-psi/FFLogsUploaderPlugin",
-        "ApplicableVersion": "any",
-        "Tags": [
-            "logs",
-            "fflogs",
-            "uploader"
-        ],
-        "CategoryTags": [
-            "Utility",
-            "Other"
-        ],
-        "DalamudApiLevel": 15,
-        "DownloadLinkInstall": "https://github.com/beer-psi/FFLogsUploaderPlugin/releases/download/v0.0.0.7/latest.zip",
-        "IsHide": false,
-        "IsTestingExclusive": false,
-        "DownloadLinkTesting": "https://github.com/beer-psi/FFLogsUploaderPlugin/releases/download/v0.0.0.7/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/beer-psi/FFLogsUploaderPlugin/releases/download/v0.0.0.7/latest.zip",
-        "DownloadCount": 13,
-        "LastUpdate": "1785052390000"
-    },
-    {
         "Author": "Anna, beerpsi",
         "Name": "ExtraChatFork",
         "Punchline": "Cross-data-centre linkshells with unlimited members.",
@@ -44,5 +17,33 @@
         "DownloadLinkUpdate": "https://github.com/beer-psi/ExtraChat/releases/download/v1.4.8.0/latest.zip",
         "DownloadCount": 13,
         "LastUpdate": "1786906027729"
+    },
+    {
+        "Author": "beerpsi",
+        "Name": "FF Logs Uploader",
+        "Punchline": "An unofficial in-game log uploader client for FF Logs",
+        "Description": "An alternative to the Archon App for uploading logs to the FF Logs service. Basic features are covered: uploading a log, splitting a log file, live logging.",
+        "Changelog": "- Allow ",
+        "InternalName": "FFLogsUploaderPlugin",
+        "AssemblyVersion": "0.0.0.9",
+        "RepoUrl": "https://github.com/beer-psi/FFLogsUploaderPlugin",
+        "ApplicableVersion": "any",
+        "Tags": [
+            "logs",
+            "fflogs",
+            "uploader"
+        ],
+        "CategoryTags": [
+            "Utility",
+            "Other"
+        ],
+        "DalamudApiLevel": 15,
+        "DownloadLinkInstall": "https://github.com/beer-psi/FFLogsUploaderPlugin/releases/download/v0.0.0.9/latest.zip",
+        "IsHide": false,
+        "IsTestingExclusive": false,
+        "DownloadLinkTesting": "https://github.com/beer-psi/FFLogsUploaderPlugin/releases/download/v0.0.0.9/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/beer-psi/FFLogsUploaderPlugin/releases/download/v0.0.0.9/latest.zip",
+        "DownloadCount": 0,
+        "LastUpdate": "1788464402147"
     }
 ]
