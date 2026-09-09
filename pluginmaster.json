@@ -23,9 +23,9 @@
         "Name": "FF Logs Uploader",
         "Punchline": "An unofficial in-game log uploader client for FF Logs",
         "Description": "An alternative to the Archon App for uploading logs to the FF Logs service. Basic features are covered: uploading a log, splitting a log file, live logging.",
-        "Changelog": "- Allow ",
+        "Changelog": "Improve performance when live logging.",
         "InternalName": "FFLogsUploaderPlugin",
-        "AssemblyVersion": "0.0.0.9",
+        "AssemblyVersion": "0.0.0.10",
         "RepoUrl": "https://github.com/beer-psi/FFLogsUploaderPlugin",
         "ApplicableVersion": "any",
         "Tags": [
@@ -38,12 +38,12 @@
             "Other"
         ],
         "DalamudApiLevel": 15,
-        "DownloadLinkInstall": "https://github.com/beer-psi/FFLogsUploaderPlugin/releases/download/v0.0.0.9/latest.zip",
+        "DownloadLinkInstall": "https://github.com/beer-psi/FFLogsUploaderPlugin/releases/download/v0.0.0.10/latest.zip",
         "IsHide": false,
         "IsTestingExclusive": false,
-        "DownloadLinkTesting": "https://github.com/beer-psi/FFLogsUploaderPlugin/releases/download/v0.0.0.9/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/beer-psi/FFLogsUploaderPlugin/releases/download/v0.0.0.9/latest.zip",
-        "DownloadCount": 3,
-        "LastUpdate": "1788464402147"
+        "DownloadLinkTesting": "https://github.com/beer-psi/FFLogsUploaderPlugin/releases/download/v0.0.0.10/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/beer-psi/FFLogsUploaderPlugin/releases/download/v0.0.0.10/latest.zip",
+        "DownloadCount": 0,
+        "LastUpdate": "1788982510033"
     }
 ]
