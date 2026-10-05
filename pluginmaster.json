@@ -15,7 +15,7 @@
         "IsTestingExclusive": false,
         "DownloadLinkTesting": "https://github.com/beer-psi/ExtraChat/releases/download/v1.4.9.0/latest.zip",
         "DownloadLinkUpdate": "https://github.com/beer-psi/ExtraChat/releases/download/v1.4.9.0/latest.zip",
-        "DownloadCount": 16,
+        "DownloadCount": 17,
         "LastUpdate": "1790707314463"
     },
     {
@@ -25,7 +25,7 @@
         "Description": "An alternative to the Archon App for uploading logs to the FF Logs service. Basic features are covered: uploading a log, splitting a log file, live logging.",
         "Changelog": "- Add an option to reset EngageTimer every phase on ultimates. This requires live logging to be running.\n- Attempt to clean up native libraries used by the plugin after the plugin is unloaded.",
         "InternalName": "FFLogsUploaderPlugin",
-        "AssemblyVersion": "0.0.0.12",
+        "AssemblyVersion": "0.0.0.13",
         "RepoUrl": "https://github.com/beer-psi/FFLogsUploaderPlugin",
         "ApplicableVersion": "any",
         "Tags": [
@@ -38,12 +38,12 @@
             "Other"
         ],
         "DalamudApiLevel": 15,
-        "DownloadLinkInstall": "https://github.com/beer-psi/FFLogsUploaderPlugin/releases/download/v0.0.0.12/latest.zip",
+        "DownloadLinkInstall": "https://github.com/beer-psi/FFLogsUploaderPlugin/releases/download/v0.0.0.13/latest.zip",
         "IsHide": false,
         "IsTestingExclusive": false,
-        "DownloadLinkTesting": "https://github.com/beer-psi/FFLogsUploaderPlugin/releases/download/v0.0.0.12/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/beer-psi/FFLogsUploaderPlugin/releases/download/v0.0.0.12/latest.zip",
-        "DownloadCount": 56,
-        "LastUpdate": "1789192560693"
+        "DownloadLinkTesting": "https://github.com/beer-psi/FFLogsUploaderPlugin/releases/download/v0.0.0.13/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/beer-psi/FFLogsUploaderPlugin/releases/download/v0.0.0.13/latest.zip",
+        "DownloadCount": 0,
+        "LastUpdate": "1791175228562"
     }
 ]
