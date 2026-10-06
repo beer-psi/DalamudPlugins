@@ -15,7 +15,7 @@
         "IsTestingExclusive": false,
         "DownloadLinkTesting": "https://github.com/beer-psi/ExtraChat/releases/download/v1.4.9.0/latest.zip",
         "DownloadLinkUpdate": "https://github.com/beer-psi/ExtraChat/releases/download/v1.4.9.0/latest.zip",
-        "DownloadCount": 17,
+        "DownloadCount": 18,
         "LastUpdate": "1790707314463"
     },
     {
@@ -43,7 +43,7 @@
         "IsTestingExclusive": false,
         "DownloadLinkTesting": "https://github.com/beer-psi/FFLogsUploaderPlugin/releases/download/v0.0.0.13/latest.zip",
         "DownloadLinkUpdate": "https://github.com/beer-psi/FFLogsUploaderPlugin/releases/download/v0.0.0.13/latest.zip",
-        "DownloadCount": 0,
+        "DownloadCount": 4,
         "LastUpdate": "1791175228562"
     }
 ]
