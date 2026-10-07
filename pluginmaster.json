@@ -23,9 +23,9 @@
         "Name": "FF Logs Uploader",
         "Punchline": "An unofficial in-game log uploader client for FF Logs",
         "Description": "An alternative to the Archon App for uploading logs to the FF Logs service. Basic features are covered: uploading a log, splitting a log file, live logging.",
-        "Changelog": "- Create a separate encounter stopwatch instead of hijacking EngageTimer.\n- Fix automatic live logging being started when entering duty recorder.",
+        "Changelog": "- Prevent stopwatch from skipping seconds",
         "InternalName": "FFLogsUploaderPlugin",
-        "AssemblyVersion": "0.0.0.14",
+        "AssemblyVersion": "0.0.0.15",
         "RepoUrl": "https://github.com/beer-psi/FFLogsUploaderPlugin",
         "ApplicableVersion": "any",
         "Tags": [
@@ -38,12 +38,12 @@
             "Other"
         ],
         "DalamudApiLevel": 15,
-        "DownloadLinkInstall": "https://github.com/beer-psi/FFLogsUploaderPlugin/releases/download/v0.0.0.14/latest.zip",
+        "DownloadLinkInstall": "https://github.com/beer-psi/FFLogsUploaderPlugin/releases/download/v0.0.0.15/latest.zip",
         "IsHide": false,
         "IsTestingExclusive": false,
-        "DownloadLinkTesting": "https://github.com/beer-psi/FFLogsUploaderPlugin/releases/download/v0.0.0.14/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/beer-psi/FFLogsUploaderPlugin/releases/download/v0.0.0.14/latest.zip",
+        "DownloadLinkTesting": "https://github.com/beer-psi/FFLogsUploaderPlugin/releases/download/v0.0.0.15/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/beer-psi/FFLogsUploaderPlugin/releases/download/v0.0.0.15/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1791295522584"
+        "LastUpdate": "1791362788277"
     }
 ]
