@@ -2,7 +2,7 @@
   "Author": "beerpsi",
   "Name": "FF Logs Uploader",
   "InternalName": "FFLogsUploaderPlugin",
-  "AssemblyVersion": "0.0.0.14",
+  "AssemblyVersion": "0.0.0.15",
   "Description": "An alternative to the Archon App for uploading logs to the FF Logs service. Basic features are covered: uploading a log, splitting a log file, live logging.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/beer-psi/FFLogsUploaderPlugin",
@@ -21,6 +21,6 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "An unofficial in-game log uploader client for FF Logs",
-  "Changelog": "- Create a separate encounter stopwatch instead of hijacking EngageTimer.\n- Fix automatic live logging being started when entering duty recorder.",
+  "Changelog": "- Prevent stopwatch from skipping seconds",
   "AcceptsFeedback": true
 }
