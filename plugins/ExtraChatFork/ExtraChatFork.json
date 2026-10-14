@@ -2,7 +2,7 @@
   "Author": "Anna, beerpsi",
   "Name": "ExtraChatFork",
   "InternalName": "ExtraChatFork",
-  "AssemblyVersion": "1.4.9.0",
+  "AssemblyVersion": "1.5.0.0",
   "Description": "ExtraChat adds end-to-end encrypted, cross-data-centre, unlimited linkshells\nto the game. (Fork of official plugin with features and some fixes)",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/beer-psi/ExtraChat",
@@ -12,6 +12,6 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Cross-data-centre linkshells with unlimited members.",
-  "Changelog": "Small fix in preparation of Dalamud API 16.",
+  "Changelog": "Change the ExtraChat server to something I personally host for better stability. Your old ExtraChat channels and\nkeys are backed up at pluginConfigs/ExtraChatFork/1.bak.json and can replace ExtraChat.json to move back to the\nofficial plugin.",
   "AcceptsFeedback": false
 }
