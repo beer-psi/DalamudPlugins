@@ -1,5 +1,24 @@
 [
     {
+        "Author": "Anna, beerpsi",
+        "Name": "ExtraChatFork",
+        "Punchline": "Cross-data-centre linkshells with unlimited members.",
+        "Description": "ExtraChat adds end-to-end encrypted, cross-data-centre, unlimited linkshells\nto the game. (Fork of official plugin with features and some fixes)",
+        "Changelog": "- Change the ExtraChat server to something I personally host for better stability. Your old ExtraChat channels and keys are backed up at pluginConfigs/ExtraChatFork/1.bak.json and can replace ExtraChat.json to move back to the official plugin.\n- Fix all Japanese worlds being grouped into Elemental data center after patch 7.57",
+        "InternalName": "ExtraChatFork",
+        "AssemblyVersion": "1.5.0.1",
+        "RepoUrl": "https://github.com/beer-psi/ExtraChat",
+        "ApplicableVersion": "any",
+        "DalamudApiLevel": 15,
+        "DownloadLinkInstall": "https://github.com/beer-psi/ExtraChat/releases/download/v1.5.0.1/latest.zip",
+        "IsHide": false,
+        "IsTestingExclusive": false,
+        "DownloadLinkTesting": "https://github.com/beer-psi/ExtraChat/releases/download/v1.5.0.1/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/beer-psi/ExtraChat/releases/download/v1.5.0.1/latest.zip",
+        "DownloadCount": 10,
+        "LastUpdate": "1791969315993"
+    },
+    {
         "Author": "beerpsi",
         "Name": "FF Logs Uploader",
         "Punchline": "An unofficial in-game log uploader client for FF Logs",
@@ -24,26 +43,7 @@
         "IsTestingExclusive": false,
         "DownloadLinkTesting": "https://github.com/beer-psi/FFLogsUploaderPlugin/releases/download/v0.0.0.16/latest.zip",
         "DownloadLinkUpdate": "https://github.com/beer-psi/FFLogsUploaderPlugin/releases/download/v0.0.0.16/latest.zip",
-        "DownloadCount": 16,
+        "DownloadCount": 17,
         "LastUpdate": "1792154849478"
-    },
-    {
-        "Author": "Anna, beerpsi",
-        "Name": "ExtraChatFork",
-        "Punchline": "Cross-data-centre linkshells with unlimited members.",
-        "Description": "ExtraChat adds end-to-end encrypted, cross-data-centre, unlimited linkshells\nto the game. (Fork of official plugin with features and some fixes)",
-        "Changelog": "- Change the ExtraChat server to something I personally host for better stability. Your old ExtraChat channels and keys are backed up at pluginConfigs/ExtraChatFork/1.bak.json and can replace ExtraChat.json to move back to the official plugin.\n- Fix all Japanese worlds being grouped into Elemental data center after patch 7.57",
-        "InternalName": "ExtraChatFork",
-        "AssemblyVersion": "1.5.0.1",
-        "RepoUrl": "https://github.com/beer-psi/ExtraChat",
-        "ApplicableVersion": "any",
-        "DalamudApiLevel": 15,
-        "DownloadLinkInstall": "https://github.com/beer-psi/ExtraChat/releases/download/v1.5.0.1/latest.zip",
-        "IsHide": false,
-        "IsTestingExclusive": false,
-        "DownloadLinkTesting": "https://github.com/beer-psi/ExtraChat/releases/download/v1.5.0.1/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/beer-psi/ExtraChat/releases/download/v1.5.0.1/latest.zip",
-        "DownloadCount": 10,
-        "LastUpdate": "1791969315993"
     }
 ]
