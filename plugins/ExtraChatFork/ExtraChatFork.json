@@ -2,7 +2,7 @@
   "Author": "Anna, beerpsi",
   "Name": "ExtraChatFork",
   "InternalName": "ExtraChatFork",
-  "AssemblyVersion": "1.5.0.4",
+  "AssemblyVersion": "1.5.0.5",
   "Description": "ExtraChat adds end-to-end encrypted, cross-data-centre, unlimited linkshells\nto the game. (Fork of official plugin with features and some fixes)",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/beer-psi/ExtraChat",
@@ -12,6 +12,6 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Cross-data-centre linkshells with unlimited members.",
-  "Changelog": "- Smuggle in party finder information for the Discord bridge instead of relying on xivpf",
+  "Changelog": "- Adjust time remaining in party finder for delay between fetching listing and sending the message.",
   "AcceptsFeedback": false
 }
